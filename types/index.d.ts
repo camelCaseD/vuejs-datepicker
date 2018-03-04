@@ -1,6 +1,6 @@
 import Vue from 'vue';
 
-interface Datepicker extends Vue {
+export interface DatepickerComponent extends Vue {
   pageTimestamp: number
   selectedDate: Date
   showDayView: boolean
@@ -9,4 +9,4 @@ interface Datepicker extends Vue {
   calendarHeight: number
 }
 
-export default Datepicker;
+export const Datepicker: DatepickerComponent;
