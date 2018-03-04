@@ -28,6 +28,7 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs",
     "prepublish": "npm run build"
   },
+  "typings": "types/index.d.ts",
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^6.7.2",
